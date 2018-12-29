@@ -44,7 +44,7 @@ if (response == "local"):
                       res = input("Open the file? Y/N")
                       if(res=="yes" or res=="y"):
                           os.system("gedit %s.py"%f_name)
-        else
+        else:
             print("Failed to create file. Description: {}".format(handle[1]))
             os.system("tput setaf 4")                  
             
