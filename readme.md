@@ -2,4 +2,17 @@
 
 
 
-Note- All the code written is written in python36
+Specfication:
+
+* Dependent on Python36
+*
+*
+*
+
+Dependency:
+
+* Python Library
+ - import numpy
+ - import os
+ - import cv2
+  
