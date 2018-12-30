@@ -13,7 +13,7 @@ if (response == "local"):
         PRESS 2: To  Run Cal
         PRESS 3: File Tool's i.e creating file/ deleating file
         PRESS 4: User Tool's i.e adding a new user/ deleating a user
-        PRESS 5: 
+        PRESS 5: Capturig Picture through a webcam
         PRESS 6:
         PRESS 7:
         PRESS 8:
