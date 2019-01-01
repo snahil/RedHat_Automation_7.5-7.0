@@ -34,16 +34,16 @@ if (response == "local"):
             PRESS 1: TO ADD A NEW FILE   
             PRESS 2: TO REMOVE A FILE
             """)
-        choice=int(input())
-        if(choice==1):
-                  f_name=input("Enter the file you wish to create")   
-                  f_location=input("Enter the location of file where you want to place it")
-                  handle=subprocess.getstatusoutput("touch {}/{}".format(f_location,f_name))
-        if(handle[0]==0):
-                      print("File Created Sucessfully @!!!!!") 
-                      res = input("Open the file? Y/N")
-                      if(res=="yes" or res=="y"):
-                          os.system("gedit %s.py"%f_name)
+            choice=int(input())
+            if(choice==1):
+                      f_name=input("Enter the file you wish to create")   
+                      f_location=input("Enter the location of file where you want to place it")
+                      handle=subprocess.getstatusoutput("touch {}/{}".format(f_location,f_name))
+            if(handle[0]==0):
+                          print("File Created Sucessfully @!!!!!") 
+                          res = input("Open the file? Y/N")
+                          if(res=="yes" or res=="y"):
+                              os.system("gedit %s.py"%f_name)
         else:
             print("Failed to create file. Description: {}".format(handle[1]))
             os.system("tput setaf 4")                  
