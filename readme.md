@@ -15,4 +15,5 @@ Dependency:
  - import numpy
  - import os
  - import cv2
+ - import requests
   

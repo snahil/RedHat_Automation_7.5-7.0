@@ -1,5 +1,8 @@
 import os
 import subprocess
+import numpy
+import cv2
+import requests
 os.system("tput setaf 3")
 print ("\t\t\t WELCOME TO MY REDHAT AUTOMATION TOOL")
 os.system ("tput setaf 2")
@@ -44,6 +47,10 @@ if (response == "local"):
                           res = input("Open the file? Y/N")
                           if(res=="yes" or res=="y"):
                               os.system("gedit %s.py"%f_name)
+        elif(num==5)
+             cap=cv2.VideoCapture(0) # O is used to access the inbuild web can as 1 is used for the external web cam
+             ret,photo = cap.read()
+             cv2.imwrite('/root/Desktop/snahil1.png',photo)
         else:
             print("Failed to create file. Description: {}".format(handle[1]))
             os.system("tput setaf 4")                  
