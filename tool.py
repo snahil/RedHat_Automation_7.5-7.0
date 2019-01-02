@@ -16,12 +16,12 @@ if (response == "local"):
         PRESS 2: To  Run Cal
         PRESS 3: File Tool's i.e creating file/ deleating file
         PRESS 4: User Tool's i.e adding a new user/ deleating a user
-        PRESS 5: Capturig Picture through a webcam
-        PRESS 6:
+        PRESS 5: Capturig Picture Through a Webcam
+        PRESS 6: Video Live Streaming Using Mobil
         PRESS 7:
         PRESS 8:
         PRESS 9:
-        PRESS 10:
+        PRESS 10: Understanding Redhat
         PRESS 11: To Exit The Tool
         """)
 
@@ -48,6 +48,11 @@ if (response == "local"):
                           if(res=="yes" or res=="y"):
                               os.system("gedit %s.py"%f_name)
         elif(num==5)
+            print("""
+            PRESS 1: TO TAKE A PICTURE
+            PRESS 2: ENTER THE LOCATION TO SAME THE PICTURE
+            PRESS 3: SAVE THE PICTURE
+            """)   
              cap=cv2.VideoCapture(0) # O is used to access the inbuild web can as 1 is used for the external web cam
              ret,photo = cap.read()
              cv2.imwrite('/root/Desktop/snahil1.png',photo)
