@@ -56,6 +56,8 @@ if (response == "local"):
              cap=cv2.VideoCapture(0) # O is used to access the inbuild web can as 1 is used for the external web cam
              ret,photo = cap.read()
              cv2.imwrite('/root/Desktop/snahil1.png',photo)
+         elif(num==10)
+         print("Red-hat is an american company providingopen-source software to the enterprise community. Founded in 1993")
         else:
             print("Failed to create file. Description: {}".format(handle[1]))
             os.system("tput setaf 4")                  
