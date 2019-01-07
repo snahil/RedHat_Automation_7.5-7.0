@@ -4,7 +4,7 @@ import numpy
 import cv2
 import requests
 os.system("tput setaf 3")
-print ("\t\t\t WELCOME TO MY REDHAT AUTOMATION TOOL")
+print ("\t\t\t WELCOME_TO_MY_REDHAT_AUTOMATION_TOOL")
 os.system ("tput setaf 2")
 print ("\t\t\t ------------------------------------")
 
