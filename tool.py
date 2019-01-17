@@ -36,6 +36,11 @@ if (response == "local"):
             print("""
             PRESS 1: TO ADD A NEW FILE   
             PRESS 2: TO REMOVE A FILE
+            PRESS 3: TO MAKE A HADOOP CLUSTER
+            PRESS 4: TO DEPLPY DOCKER
+            PRESS 5: FOR REMOTE LOGIN AND CAPTURING A PICTURE AT THE OTHERS SYSTEM AND SAVING IT TO  THE USER MACHING
+            PRESS 6: FOR LIVE STREMIANG WITH THE MOBILE CAM
+            PRESS 
             """)
             choice=int(input())
             if(choice==1):
