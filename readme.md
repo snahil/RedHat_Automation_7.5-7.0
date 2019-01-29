@@ -14,7 +14,8 @@ Dependency:
 * Python Library
 
  - import numpy
-		pip install numpy
+		pip install numpy # for python2
+		pip3 install numpy # for python3 and later
  - import os
 
  - import cv2   
