@@ -11,12 +11,16 @@ print ("USING THE TOOL LOCALY OR REMOTELY")
 ch=input()
 if ch == 'localy'
 print("""
-    PRESS 1 FOR HADOOP CLUSTER FORMATION
-    PRESS 2 FOR LIVE STREAMING FROM MOBILE
-    PRESS 3 FOR FACE RECOGIANTION
+    PRESS 0 FOR HADOOP CLUSTER FORMATION
+    PRESS 1 FOR LIVE STREAMING FROM MOBILE
+    PRESS 2 FOR FACE RECOGIANTION
       """)
 
  x = raw_input("Enter Your Choice:     ")
+ 
+ 
+ 
+ if 
  
  if x == '0'
  
@@ -25,10 +29,13 @@ print("""
      
   if x == '1'
       
-  os.system(hadoop.py)
+  os.system('LiveStreaming.py')
       
+  if x == '2'
 
+    os.system('User.py')
 
+    
  if x == "10"   
      os.system('exit.py')
 
