@@ -7,7 +7,7 @@ Specfication:
 * Dependent on Python36
 * This tool is designed for automation the redhat commands
 * To perform remote commands both the system should be in the same network
-*
+* This tool is independent of the os , just need to clear the dependency
 
 Dependency:
 
