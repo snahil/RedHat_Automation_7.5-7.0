@@ -1,1 +1,1 @@
-
+#!/bin/usr/python36
