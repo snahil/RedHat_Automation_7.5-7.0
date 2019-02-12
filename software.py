@@ -42,7 +42,13 @@ if ch == 'A'
             n = raw_input("Enter the path of the tool i.e /root/Desktop/hadoop.rpm")
             os.system ( 'rpm -ivh' + m)  
 if ch == 'B' 
-            m =raw_input 
+            m = raw_input("Enter the name of the software which you want to install")
+            os.system ( ' yum ' + m)
 
+
+
+
+
+            
 
 
