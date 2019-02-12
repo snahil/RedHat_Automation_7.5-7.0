@@ -12,26 +12,33 @@ ch=input()
 if ch == 'localy'
 print("""
     PRESS 0 FOR HADOOP CLUSTER FORMATION
-    PRESS 1 FOR LIVE STREAMING FROM MOBILE
-    PRESS 2 FOR FACE RECOGIANTION
+    press 1 FOR SOFTWARE USE AND FUNCTIONALITY
+    PRESS 2 FOR LIVE STREAMING FROM MOBILE
+    PRESS 3 FOR FACE RECOGIANTION
+    PRESS 10 FOR EXIT THE TOOL
       """)
 
  x = raw_input("Enter Your Choice:     ")
  
+while true:
+
+
  
  
- if 
  
  if x == '0'
  
      os.system('hadoopcluster.py')
      
-     
-  if x == '1'
+  IF  X == '1'
+
+      os.system('software.py')
+
+  if x == '2'
       
   os.system('LiveStreaming.py')
       
-  if x == '2'
+  if x == '3'
 
     os.system('User.py')
 
