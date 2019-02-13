@@ -43,12 +43,24 @@ if ch == 'A'
             os.system ( 'rpm -ivh' + m)  
 if ch == 'B' 
             m = raw_input("Enter the name of the software which you want to install")
-            os.system ( ' yum ' + m)
+            os.system ( ' yum install' + m)
+
+if ch == 'C'
+            m = raw_input("Enter the name of the software package which you need to update") 
+
+            os.system ('pip install ' + m)
+
+if ch == 'D' 
+            m = raw_input("Enter the name of the software package which you need to install")
+
+            os.system('pip3 install' + m)
 
 
-
-
-
+if ch == 'E'
             
+            m = raw_input("Enter the name of the software package which you need to install")
 
+            os.system('yum remove' + m)
+if ch ==  'F'
 
+            os.system('exit.py')
