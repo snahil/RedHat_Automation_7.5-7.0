@@ -64,4 +64,11 @@ if ch == 'E'
 if ch ==  'F'
 
             os.system('exit.py')
-if ch == ''
+if ch == 'x'
+
+        os.system('index.py')
+
+if ch == 'y'
+        
+        os.system('exit.py')
+        

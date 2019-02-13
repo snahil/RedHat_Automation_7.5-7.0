@@ -18,7 +18,7 @@ print("""
     press 1 FOR SOFTWARE USE AND FUNCTIONALITY
     PRESS 2 FOR LIVE STREAMING FROM MOBILE
     PRESS 3 FOR FACE RECOGIANTION
-    PRESS 4 FOR WEB CAM TOOL (REMOT PHOTO CAPTURE)
+    PRESS 4 FOR WEB CAM TOOL (REMOTE PHOTO CAPTURE)
     PRESS 10 FOR EXIT THE TOOL
       """)
 
@@ -45,7 +45,9 @@ while true:
   if x == '3'
 
     os.system('User.py')
-
+ if ch ==  '4'
+ 
+  os.system('webcam.py')
     
  if x == "10"   
      os.system('exit.py')
