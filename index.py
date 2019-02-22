@@ -12,8 +12,8 @@ print("WELCOME TO MY TOOL FOR REDHAT AUTOMATION")
 print("========================================")
 print ("USING THE TOOL LOCALY OR REMOTELY")
 ch=input()
-if ch == 'localy'
-print("""
+    if ch == 'localy'
+    print("""
     PRESS 0 FOR HADOOP CLUSTER FORMATION
     press 1 FOR SOFTWARE USE AND FUNCTIONALITY
     PRESS 2 FOR LIVE STREAMING FROM MOBILE
@@ -26,7 +26,7 @@ print("""
  
 while true:
 
-
+ if platform 
  
  
  
@@ -53,4 +53,5 @@ while true:
      os.system('exit.py')
 
 
-
+else :
+    print ("Option does not support")
