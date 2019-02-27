@@ -2,7 +2,7 @@
 
 import os
 import cv2
-
+import subprocess 
 
 cap = cv2.VideoCapture(0)
 ret , photo = cap.read()
