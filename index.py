@@ -22,35 +22,38 @@ ch=input()
     PRESS 10 FOR EXIT THE TOOL
       """)
 
- x = raw_input("Enter Your Choice:     ")
+    x = raw_input("Enter Your Choice:     ")
  
-while true:
+    while true:
 
- if platform 
+    if platform 
  
  
  
- if x == '0'
+    if x == '0'
  
-     os.system('hadoopcluster.py')
+      os.system('hadoopcluster.py')
      
-  IF  X == '1'
+    if  X == '1'
 
       os.system('software.py')
 
-  if x == '2'
+    if x == '2'
       
-  os.system('LiveStreaming.py')
+      os.system('LiveStreaming.py')
       
-  if x == '3'
+    if x == '3'
 
-    os.system('User.py')
- if ch ==  '4'
+      os.system('User.py')
  
-  os.system('webcam.py')
+    if ch ==  '4'
+ 
+      os.system('webcam.py')
     
- if x == "10"   
-     os.system('exit.py')
+     if x == "10"   
+       os.system('exit.py')
+
+if ch == 'globaly'
 
 
 else :
