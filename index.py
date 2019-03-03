@@ -19,7 +19,8 @@ ch=input()
     PRESS 2 FOR LIVE STREAMING FROM MOBILE
     PRESS 3 FOR FACE RECOGIANTION
     PRESS 4 FOR WEB CAM TOOL (REMOTE PHOTO CAPTURE)
-    PRESS 10 FOR EXIT THE TOOL
+    PRESS 10 For LEARNING AI
+    PRESS 11 FOR EXIT THE TOOL
       """)
 
     x = raw_input("Enter Your Choice:     ")
@@ -50,8 +51,10 @@ ch=input()
  
       os.system('webcam.py')
     
-     if x == "10"   
+     if x == "11"   
        os.system('exit.py')
+     if x == "10"
+       os.system('ai.py')
 
 if ch == 'globaly'
 
