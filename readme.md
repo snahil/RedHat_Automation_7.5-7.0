@@ -2,7 +2,7 @@
 
 
 
-Specfication
+@@Specfication
 
 * Dependent on Python36.
 * This tool is designed for automation the redhat commands.
