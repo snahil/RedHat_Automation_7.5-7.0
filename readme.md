@@ -3,7 +3,7 @@
 
 
 @@Specfication
-
+snahilindoria
 * Dependent on Python36.
 * This tool is designed for automation the redhat commands.
 * To perform remote commands both the system should be in the same network.
